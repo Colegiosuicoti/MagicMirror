@@ -84,7 +84,7 @@ let config = {
 						name: "VIEW1",
 						mode: "daily",
 						position: "lower_third",
-						title: "Sala de Reuniões",
+						title: "Meeting Room",
 						type: "row",
 						filterPassedEvent: true,
 					},
@@ -92,7 +92,8 @@ let config = {
 						name: "VIEW2",
 						mode: "current",
 						position: "upper_third",
-						title: "Agora",
+						title: "Now",
+						className: "custom-current"
 					}
 				],
 			},
